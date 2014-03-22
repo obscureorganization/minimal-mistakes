@@ -1,42 +1,45 @@
-title:            Minimal Mistakes
-description:      A responsive Jekyll theme large featured images and solid typography.
-#Comment out url when working locally to resolve base urls correctly
-url:              http://victordev.github.io/minimal-mistakes
+title:            Jumbotron Theme
+tagline:          
+description:      Bootstrap theme Jumbotron for Jekyll
+# Your site's domain goes here. Leave localhost server or blank when working locally.
+url:              http://localhost:4000
 
 # Owner/author information
 owner:
-  name:           Michael Rose
-  avatar:         bio-photo.jpg
-  bio:            "Just another boring, time traveling, tattooed, designer from Buffalo New York."
-  email:          michael@mademistakes.com
+  name:           Victor Martins
+  avatar:         bio-photo.png
+  bio:            "Desenvolvedor Front-End"
+  email:          victordev@outlook.com
   # Social networking links are used in author-bio sidebar. Update and remove as you like.
-  twitter:        "mmistakes"
-  github:         "mmistakes"
-  instagram:      "mmistakes"
+  twitter:        victorfrontend
+  facebook:       victorfrontend
+  github:         victordev
+  linkedin:       victormartins4
+  instagram:      victorfrontend
+  lastfm:         
+  tumblr:         
   # For Google Authorship https://plus.google.com/authorship
-  google_plus:    "http://plus.google.com/118238196859537351707"
+  google_plus:    https://plus.google.com/110272394129910740612
 
 # Analytics and webmaster tools stuff goes here
-google_analytics:   UA-2011187-3
-google_verify:      UQj93ERU9zgECodaaXgVpkjrFn9UrDMEzVamacSoQ8Y
+google_analytics:   
+google_verify:      
 # https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
-bing_verify:        D81F4C18A6CB3018F64D7C827D953DFD
-
+bing_verify:        
 # Links to include in top navigation
 # For external links add external: true
 links:
-  - title: About
+  - title: Sobre
     url: /about/
-  - title: Posts
-    url: /posts/
-  - title: Theme Setup
-    url: /theme-setup/
-  - title: Made Mistakes
-    url: http://mademistakes.com
-    external: true
+  - title: Blog
+    url: /blog/
+  - title: Configuração
+    url: /setup/
+  - title: Contato
+    url: /contact/
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-timezone:    America/New_York
+timezone:    America/Fortaleza
 future:      true
 pygments:    true
 markdown:    kramdown
@@ -60,3 +63,6 @@ kramdown:
 
 include: [".htaccess"]
 exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules"]
+
+encoding: utf-8
+lang: pt-br
